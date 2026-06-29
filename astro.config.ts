@@ -63,7 +63,7 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/fonts/
   fonts: [
     {
-      provider: fontProviders.fontshare(),
+      provider: fontProviders.google(),
       name: 'Satoshi',
       cssVariable: '--font-satoshi',
       // Default included:

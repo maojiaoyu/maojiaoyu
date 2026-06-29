@@ -3,9 +3,9 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // [Basic]
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: '灵的梦境',
+  title: '猫角域 maojiaoyu',
   /** Will be used in index page & copyright declaration */
-  author: 'Ling',
+  author: 'maojiaoyu',
   /** Description metadata for your website. Can be used in page metadata. */
   description: '愿美梦成真',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
@@ -67,8 +67,8 @@ export const theme: ThemeUserConfig = {
     links: [
       // Registration link
       {
-        title: '萌ICP备20250550号',
-        link: 'https://icp.gov.moe/?keyword=20250550',
+        title: '黔ICP备2025055075号 贵公网安备52062402000235号',
+        link: 'https://icp.gov.moe/?keyword=2025055075',
         style: 'text-sm' // Uno/TW CSS class
       },
       // Privacy Policy link
@@ -82,7 +82,7 @@ export const theme: ThemeUserConfig = {
     credits: true,
     /** Optional details about the social media accounts for this site. */
     social: [
-      { icon: 'github', label: 'GitHub', href: 'https://github.com/LemonAdorable' },
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/maojiaoyu' },
       { icon: 'rss', label: 'RSS', href: '/rss.xml' }
     ]
   },
@@ -121,8 +121,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://lemonadorable.github.io/' },
-      { name: 'Avatar', val: 'https://lemonadorable.github.io/favicon/favicon.gif' }
+      { name: 'Link', val: 'https://maojiaoyu.github.com/' },
+      { name: 'Avatar', val: 'https://maojiaoyu.github.com/favicon/favicon.gif' }
     ],
     // Cache avatars in `public/avatars/` to improve user experience.
     cacheAvatar: false
@@ -187,7 +187,7 @@ export const integ: IntegrationUserConfig = {
   // Giscus comment system configuration
   giscus: {
     enable: true,
-    repo: 'LemonAdorable/lemonadorable.github.io',
+    repo: 'maojiaoyu/maojiaoyu.github.com',
     repoId: 'R_kgDOLJXF6A',
     category: 'Announcements',
     categoryId: 'DIC_kwDOLJXF6M4Ccs4x'
