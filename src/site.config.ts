@@ -203,7 +203,7 @@ export const integ: IntegrationUserConfig = {
 // </script>
   giscus: {
     enable: true,
-    repo: 'maojiaoyu/maojiaoyu.github.com',
+    repo: 'maojiaoyu/maojiaoyu.github.io',
     repoId: 'R_kgDOTIZH_g',
     category: 'Announcements',
     categoryId: 'DIC_kwDOTIZH_s4DAVQ-'
