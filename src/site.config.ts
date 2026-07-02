@@ -185,12 +185,28 @@ export const integ: IntegrationUserConfig = {
     //imageUploader: false
   },
   // Giscus comment system configuration
+//   <script src="https://giscus.app/client.js"
+//         data-repo="maojiaoyu/maojiaoyu.github.io"
+//         data-repo-id="R_kgDOTIZH_g"
+//         data-category="Announcements"
+//         data-category-id="DIC_kwDOTIZH_s4DAVQ-"
+//         data-mapping="pathname"
+//         data-strict="0"
+//         data-reactions-enabled="1"
+//         data-emit-metadata="0"
+//         data-input-position="top"
+//         data-theme="preferred_color_scheme"
+//         data-lang="zh-CN"
+//         data-loading="lazy"
+//         crossorigin="anonymous"
+//         async>
+// </script>
   giscus: {
     enable: true,
     repo: 'maojiaoyu/maojiaoyu.github.com',
-    repoId: 'R_kgDOLJXF6A',
+    repoId: 'R_kgDOTIZH_g',
     category: 'Announcements',
-    categoryId: 'DIC_kwDOLJXF6M4Ccs4x'
+    categoryId: 'DIC_kwDOTIZH_s4DAVQ-'
   }
 }
 
